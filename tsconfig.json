@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "types": [
+      "vite/client",
+      "react/next",
+      "react-dom/next",
+      "vite-plugin-svgr/client"
+    ],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "importHelpers": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "strict": true,
+    "paths": {
+      "@app/*": ["./src/*"]
+    },
+    "allowSyntheticDefaultImports": true
+  }
+}
